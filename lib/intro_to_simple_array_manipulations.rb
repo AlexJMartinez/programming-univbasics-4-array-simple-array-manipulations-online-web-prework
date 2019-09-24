@@ -1,11 +1,9 @@
 def using_push(colors_in_the_rainbow, next_color)
   colors_in_the_rainbow.push("violet")
-
 end
 
 def using_unshift(bouroughs_in_nyc, new_neighborhood)
   bouroughs_in_nyc.unshift("Staten Island")
-
 end
 
 def using_pop(continents)
@@ -30,5 +28,8 @@ end
 
 def using_insert(list_of_programming_languages, another_language)
   list_of_programming_languages.insert(4, another_language)
+end
 
+def using_uniq(haircuts)
+  haircuts.uniq("bob")
 end
